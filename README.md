@@ -4,7 +4,7 @@ The [Smashing dashboard](https://github.com/Smashing/smashing) is a convenient w
 
 ## Installation
 
-Add the following to your ```layout.erb``` or dashboard .erb file above the lined for ```application.js```:
+Add the following to your ```layout.erb``` above the line for ```application.js```:
 ```html
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
@@ -43,7 +43,7 @@ data-view="GoogleGeo" data-moreinfo="">
 
 Send path data in one of a number of formats.  The formats presented here do NOT require an API key from Google to work.
 
-The following is based on values for countries/provinces by two-character country (ISO-3166) or state codes (US only with province level resolution):
+The following is based on values for countries/provinces by two-character country (ISO-3166):
 ```js
 {
 "points" : [ 
@@ -55,8 +55,7 @@ The following is based on values for countries/provinces by two-character countr
 }
 ```
 
-or
-
+The following works with provinces-level resolution and two letter country and state codes (US only):
 ```js
 {
 "points" : [
@@ -69,7 +68,6 @@ or
 ```
 
 The following specifies coordinates in latitude/longitude format.
-
 ```js
 {
 "points" : [
