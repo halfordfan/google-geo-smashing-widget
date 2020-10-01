@@ -41,7 +41,7 @@ data-resolution="provinces"
 data-view="GoogleGeo" data-moreinfo="">
 ```
 
-Send path data in one of a number of formats.  The formats presented here do NOT require an API key from Google to work.
+Send point data in one of a number of formats.  The formats presented here do NOT require an API key from Google to work.
 
 The following is based on values for countries/provinces by two-character country (ISO-3166):
 ```js
