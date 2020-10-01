@@ -1,4 +1,4 @@
-# Leaflet with Migration Plug-in Widget for Smashing
+# Google Geo Chart Widget for Smashing
 
 The [Smashing dashboard](https://github.com/Smashing/smashing) is a convenient way to visualize a variety of data sets in a kiosk-type mode.  This is a [Google Geo Visualization](https://developers.google.com/chart/interactive/docs/gallery/geochart) widget to create heat maps or activity blooms on a variety of maps.  I use this widget to show geo-locations of users of an Internet-based service.
 
