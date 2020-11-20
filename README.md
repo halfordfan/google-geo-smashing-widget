@@ -12,7 +12,7 @@ google.charts.load('current', {packages:['corechart']});
 </script>
 ```
 
-If you get an ```Internal Error``` message when sending a lot of datapoints, you probably need to increase your Rake parameter depth limit in ```config.ru``` just before running Sinatra like so:
+If you get an ```Internal Error``` message when sending a lot of datapoints, you probably need to increase your Rack parameter depth limit in ```config.ru``` just before running Sinatra like so:
 
 ```ruby
 Rack::Utils.param_depth_limit = 200 // Or more
